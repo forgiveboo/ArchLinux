@@ -1,5 +1,5 @@
 # ArchLinux使用日常
-#### 将ranger默认编辑器改为nvim
+### 将ranger默认编辑器改为nvim
    - 方法1：将系统的默认编辑器改为nvim `echo export EDITOR=/usr/bin/nvim >> ~/.zshrc`
    - 方法2：
       1. 打开~/.config/ranger/rifle.conf, 找到以下代码段:
@@ -24,5 +24,5 @@
       !mime ^text, label editor, ext xml|json|csv|tex|py|pl|rb|js|sh|php = nvim -- "$@"
       !mime ^text, label pager,  ext xml|json|csv|tex|py|pl|rb|js|sh|php = "$PAGER" -- "$@"
       ```
-#### error: failed to commit transaction (invalid or corrupted package)
+### error: failed to commit transaction (invalid or corrupted package)
    `sudo pacman -Sy archlinux-keyring`
