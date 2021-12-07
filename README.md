@@ -1,7 +1,7 @@
 # ArchLinux使用日常
 ### 将ranger默认编辑器改为nvim
    - 方法1：将系统的默认编辑器改为nvim `echo export EDITOR=/usr/bin/nvim >> ~/.zshrc`
-   - 方法2：
+   - 方法2：[将Ranger默认编辑器改成nvim](https://blog.csdn.net/zmhzmhzm/article/details/106765480)
       1. 打开~/.config/ranger/rifle.conf, 找到以下代码段:
       ```
       #-------------------------------------------
