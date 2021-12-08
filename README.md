@@ -33,8 +33,11 @@
 Server = https://aur.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 ```
 - 更新源
+
 `sudo pacman -Syy`
 - 安装archlinxcn-keyring
+
 `sudo pacmam -S archlinuxcn-keyring`
 - 安装yay
+
 `sudo pacman -S yay`
