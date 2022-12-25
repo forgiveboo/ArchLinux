@@ -44,3 +44,6 @@ Server = https://aur.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 ### 安装带有模糊特效的picom
 [AUR源](https://aur.archlinux.org/packages/picom-jonaburg-git/)
 > 几乎不需要任何配置就可以实现高斯特效
+
+### 查询网卡
+`ls /sys/class/net`
